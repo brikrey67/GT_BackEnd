@@ -9,11 +9,6 @@ const seedCatData = require('./catSeeds.json')
 // passing in any parameters, so Mongoose interprets this command
 // as delete all documents in that collection!
 
-// Create a collection using the JSON contained in our seed file
-// Note that this is ideal for bulk insertion but skips schema
-// validation. In our controller, where we will want validation,
-// we will use Candidate.create().
-
 Todo.remove({})
   .then(() => {
     return Todo.collection.insert(seedTodoData)
