@@ -18,9 +18,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(methodOverride("_method"));
 
 app.use(session({ secret: "WDI-GENERAL-ASSEMBLY-EXPRESS" }))
-app.use(passport.initialize());
-app.use(passport.session());
-app.use(flash());
+app.use(passport.initialize())
+app.use(passport.session())
+app.use(flash())
 
 require("./config/passport")(passport);
 
