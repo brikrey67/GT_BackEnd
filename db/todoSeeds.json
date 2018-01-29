@@ -1,34 +1,34 @@
 [
   {
-    "title": "xxx",
-    "desc": "xxx",
-    "imp": "xxx",
-    "cat": "xxx",
+    "title": "Do HW #1",
+    "desc": "HW #1 desc",
+    "imp": "Very Important",
+    "cat": "School",
     "dueDate": "xxx",
-    "status": "xxx"
+    "status": "Complete"
   },
   {
-    "title": "xxx",
-    "desc": "xxx",
-    "imp": "xxx",
-    "cat": "xxx",
+    "title": "Complete Project Report",
+    "desc": "Project report desc",
+    "imp": "Important",
+    "cat": "Work",
     "dueDate": "xxx",
-    "status": "xxx"
+    "status": "In-process"
   },
   {
-    "title": "xxx",
-    "desc": "xxx",
-    "imp": "xxx",
-    "cat": "xxx",
+    "title": "Do JS30 Lesson #4",
+    "desc": "JS30 lesson #4 desc",
+    "imp": "Moderate Importance",
+    "cat": "Training",
     "dueDate": "xxx",
-    "status": "xxx"
+    "status": "Backlog"
   },
   {
-    "title": "xxx",
-    "desc": "xxx",
-    "imp": "xxx",
-    "cat": "xxx",
+    "title": "Wash Car",
+    "desc": "Wsh car description",
+    "imp": "Low",
+    "cat": "Personal",
     "dueDate": "xxx",
-    "status": "xxx"
+    "status": "Backlog"
   }
 ]
