@@ -1,7 +1,7 @@
 // Because we defined our model in schema.js and
 // set its module.exports to be equal to the News model,
 // we can reference it like so.
-const { Todo, Category } = require("../models/schema");
+const { Todo, Cat } = require("../models/schema");
 const seedTodoData = require("./todoSeeds.json");
 const seedCatData = require("./catSeeds.json");
 

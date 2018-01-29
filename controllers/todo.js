@@ -1,7 +1,7 @@
 const express = require("express");
 var passport = require("passport");
 
-const { Todo } = require("../models/schema");
+const { Todo, Cat } = require("../models/schema");
 
 function todoGetAll(request, response) {
   Todo.find({})
