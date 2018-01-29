@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 // Used to manipulate POST methods
 var methodOverride = require("method-override");
 
-var todoController = require("../controllers/buckets");
+var todoController = require("../controllers/todo");
 
 // TODO ROUTES ******************************
 router.route("/todo").get(todoController.todoGetAll);
