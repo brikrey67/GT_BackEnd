@@ -24,20 +24,20 @@ router.route('/todo/:id').delete(todoController.todoDelete)
 
 router.route('/todo/:id').put(todoController.todoPut)
 
-
-// CATAGORY ROUTES ******************************
+// CATEGORY ROUTES ******************************
 router.route('/cat').get(catController.catGetAll)
-// list all catagories
- 
+// list all categories
+
 router.route('/cat/:id').get(catController.catGetOne)
-// show selected catagory detail
+// show selected category detail
 
 router.route('/cat').post(catController.catPost)
-// add new catagory -- May not need as we will include a selector for user --
+// add new category -- May not need as we will include a selector for user --
 
 router.route('/cat/:id').delete(catController.catDelete)
-// delete selected catagory
+// may not need as our app setup would be best without it
 
 router.route('/cat/:id').put(catController.catPut)
+// may not need as our app setup would be best without it
 
 module.exports = router
