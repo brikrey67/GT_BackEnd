@@ -28,5 +28,6 @@ Cat.remove({})
 // to run, type:
 // $ node db/seeds.js
 // $ mongo
-// use whenpresident
-// db.candidate.find().pretty()
+// $ show dbs
+// $ use todos
+// db.todos.find()--  OR -- db.cat.find()
