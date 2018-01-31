@@ -2,7 +2,7 @@
   {
     "title": "Do HW #1",
     "desc": "HW #1 desc",
-    "imp": "Very Important",
+    "imp": "Moderate",
     "cat": "School",
     "dueDate": "xxx",
     "status": "Complete"
@@ -10,7 +10,7 @@
   {
     "title": "Complete Project Report",
     "desc": "Project report desc",
-    "imp": "Important",
+    "imp": "Very High",
     "cat": "Work",
     "dueDate": "xxx",
     "status": "In-process"
@@ -18,15 +18,23 @@
   {
     "title": "Do JS30 Lesson #4",
     "desc": "JS30 lesson #4 desc",
-    "imp": "Moderate Importance",
-    "cat": "Training",
+    "imp": "Low",
+    "cat": "Learning",
     "dueDate": "xxx",
     "status": "Backlog"
   },
   {
     "title": "Wash Car",
     "desc": "Wash car desc",
-    "imp": "Low",
+    "imp": "Very Low",
+    "cat": "Personal",
+    "dueDate": "xxx",
+    "status": "Backlog"
+  },
+  {
+    "title": "Get Birthday Present for Mom",
+    "desc": "Shopping desc",
+    "imp": "High",
     "cat": "Personal",
     "dueDate": "xxx",
     "status": "Backlog"

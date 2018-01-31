@@ -1,62 +1,62 @@
-const express = require('express')
-var passport = require('passport')
+const express = require("express");
+var passport = require("passport");
 
-const { Todo, Cat } = require('../models/schema')
+const { Todo } = require("../models/schema");
 
-function todoGetAll (request, response) {
+function todoGetAll(request, response) {
   Todo.find({})
-    .sort('order')
+    .sort("imp")
     .then(todos => {
-      response.status(200).json(todos)
+      response.status(200).json(todos);
     })
     .catch(err => {
-      response.status(500).send({ error: 'Nope!' })
-    })
+      response.status(500).send({ error: "Nope!" });
+    });
 }
 
-function todoGetOne (request, response) {
-  let id = request.params.id
+function todoGetOne(request, response) {
+  let id = request.params.id;
   Todo.findOne({
     _id: id
   })
     .then(todo => {
-      response.status(200).json(todo)
+      response.status(200).json(todo);
     })
     .catch(err => {
-      response.status(500).send({ error: 'Nope!' })
-    })
+      response.status(500).send({ error: "Nope!" });
+    });
 }
 
-function todoPost (request, response) {
+function todoPost(request, response) {
   Todo.create(request.body)
     .then(todo => {
-      response.status(200).json(todo)
+      response.status(200).json(todo);
     })
     .catch(err => {
-      console.log(err)
-    })
+      console.log(err);
+    });
 }
 
-function todoDelete (request, response) {
+function todoDelete(request, response) {
   Todo.findOneAndRemove({ _id: request.params.id })
     .then(todo => {
-      response.status(200).json(todo)
+      response.status(200).json(todo);
     })
     .catch(err => {
-      response.status(500).send({ error: 'Nope!' })
-    })
+      response.status(500).send({ error: "Nope!" });
+    });
 }
 
-function todoPut (request, response) {
+function todoPut(request, response) {
   Todo.findOneAndUpdate({ _id: request.params.id }, request.body, {
     new: true
   })
     .then(todo => {
-      response.status(200).json(todo)
+      response.status(200).json(todo);
     })
     .catch(err => {
-      response.status(500).send({ error: 'Nope!' })
-    })
+      response.status(500).send({ error: "Nope!" });
+    });
 }
 
 module.exports = {
@@ -65,4 +65,4 @@ module.exports = {
   todoPost,
   todoDelete,
   todoPut
-}
+};
