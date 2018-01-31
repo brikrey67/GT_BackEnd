@@ -29,5 +29,10 @@ Cat.remove({})
 // $ node db/seeds.js
 // $ mongo
 // $ show dbs
+<<<<<<< HEAD
 // $ use todo
 // db.todo.find() OR  db.cat.find()
+=======
+// $ use todos
+// db.todos.find()--  OR -- db.cat.find()
+>>>>>>> neechie
