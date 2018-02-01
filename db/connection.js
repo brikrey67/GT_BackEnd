@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-
+mongoose.set('debug', true)
 // We also need to link Mongoose to the Mongo database.
 
 if (process.env.NODE_ENV == 'production') {
