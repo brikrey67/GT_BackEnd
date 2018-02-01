@@ -7,7 +7,7 @@ var methodOverride = require('method-override')
 
 var todoController = require('../controllers/todo')
 
-// var catController = require('./controllers/cat')
+var catController = require('../controllers/cat')
 
 // TODO ROUTES ******************************
 router.route('/todo').get(todoController.todoGetAll)
