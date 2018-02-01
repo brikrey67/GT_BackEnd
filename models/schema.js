@@ -2,7 +2,7 @@
 
 const mongoose = require("../db/connection");
 
-//Schema
+// Schema
 
 const TodoSchema = new mongoose.Schema({
   title: String,
@@ -10,13 +10,27 @@ const TodoSchema = new mongoose.Schema({
   imp: String,
   cat: String,
   dueDate: String,
-  status: String
+  status: String,
+  quote: String
 });
 
 const Todo = mongoose.model("Todo", TodoSchema);
 
 const CatSchema = new mongoose.Schema({
-  catTitle: String
+  catTitle: {
+    type: String,
+    required: "Category can not be blank"
+  },
+
+  completed: {
+    type: Boolean,
+    default: false
+  },
+
+  createdDate: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 const Cat = mongoose.model("Cat", CatSchema);

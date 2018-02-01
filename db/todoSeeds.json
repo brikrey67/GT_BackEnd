@@ -5,7 +5,9 @@
     "imp": "Moderate",
     "cat": "School",
     "dueDate": "xxx",
-    "status": "Complete"
+    "status": "Complete",
+    "quote":
+      "I would no longer see barricades. Stumbling blocks would now be seen as stepping stones to something better."
   },
   {
     "title": "Complete Project Report",
@@ -13,7 +15,9 @@
     "imp": "High",
     "cat": "Work",
     "dueDate": "xxx",
-    "status": "In-process"
+    "status": "In-process",
+    "quote":
+      "If your life were a book and you were the author, how would you want your story to go?"
   },
   {
     "title": "Do JS30 Lesson #4",
@@ -21,7 +25,9 @@
     "imp": "Low",
     "cat": "Learning",
     "dueDate": "xxx",
-    "status": "Backlog"
+    "status": "Backlog",
+    "quote":
+      "If you can find a path with no obstacles, it probably doesn't lead anywhere."
   },
   {
     "title": "Wash Car",
@@ -29,7 +35,8 @@
     "imp": "Low",
     "cat": "Personal",
     "dueDate": "xxx",
-    "status": "Backlog"
+    "status": "Backlog",
+    "quote": "Make everything as simple as possible, but not simpler."
   },
   {
     "title": "Get Birthday Present for Mom",
@@ -37,6 +44,7 @@
     "imp": "High",
     "cat": "Personal",
     "dueDate": "xxx",
-    "status": "Backlog"
+    "status": "Backlog",
+    "quote": "We're made of star stuff."
   }
 ]
