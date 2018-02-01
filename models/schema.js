@@ -10,7 +10,8 @@ const TodoSchema = new mongoose.Schema({
   imp: String,
   cat: String,
   dueDate: String,
-  status: String
+  status: String,
+  quote: String
 });
 
 const Todo = mongoose.model("Todo", TodoSchema);
