@@ -10,7 +10,7 @@
   {
     "title": "Complete Project Report",
     "desc": "Project report desc",
-    "imp": "Very High",
+    "imp": "High",
     "cat": "Work",
     "dueDate": "xxx",
     "status": "In-process"
@@ -26,7 +26,7 @@
   {
     "title": "Wash Car",
     "desc": "Wash car desc",
-    "imp": "Very Low",
+    "imp": "Low",
     "cat": "Personal",
     "dueDate": "xxx",
     "status": "Backlog"
