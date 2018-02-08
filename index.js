@@ -9,6 +9,8 @@ const mongoose = require('mongoose')
 const routes = require('./config/routes')
 const app = express()
 
+// remove commented code in production!
+
 // const flash = require("connect-flash");
 // const morgan = require("morgan");
 // var cookieParser = require("cookie-parser");

@@ -9,6 +9,7 @@ var todoController = require('../controllers/todo')
 
 var catController = require('../controllers/cat')
 
+// awesome job separating this out!
 // TODO ROUTES ******************************
 router.route('/todo').get(todoController.todoGetAll)
 // list all todos
